@@ -1,0 +1,225 @@
+:root{
+    --green: #a2ca28;
+    --red: #f0604c;
+}
+header{
+    background: url('../img/headerbg.jpg') 80% 90%/cover;
+    text-align: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+#zolaq{
+    width: 100%;
+    position: absolute;
+    height: 100px;
+    background: var(--red);
+    opacity: .3;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%) scale(1.02, 1) rotate(-2.4deg);
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 4.5vh;
+}
+.fit_div{
+    width: 100%;
+    position: absolute;
+    bottom: 16vh;
+}
+menu{
+    text-align: center;
+}
+menu li{
+    padding: 10px 2vw 0 2vw;
+}
+menu li a{
+    font: .8em "Avenir Next Rounded Std";
+    text-transform: uppercase;
+    color: #fff;
+}
+h1, h5{
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Myriad Pro";
+}
+h1 { font-size: 2em; }
+h5{
+    font-size: 1em;
+    letter-spacing: 3px;
+    padding: 10px 16px 0 0;
+}
+.bggreen{background: var(--green);}
+.bgred{background: var(--red);}
+.bgwhite{background: #fff;}
+.txtwhite{color: #fff;}
+.txtgreen{color: var(--green);}
+.txtred{color: var(--red);}
+.artpadding{padding: 50px 40px;}
+.center{text-align: center;}
+.height50{min-height: 50vh;}
+.ppadding{padding: 20px 0 0 0;}
+.bgblack{background: black;}
+#art4{padding: 70px 0;}
+#art4 article{padding: 35px 10px;}
+#ffitness{background: url('../img/fitnessfirst.jpg');}
+#yourbody{background: url('../img/yourbody.jpg');}
+#lifestyle{background: url('../img/lifestyle.jpg')}
+#summeroffun{background: url('../img/summeroffun.jpg')}
+#grape{background: url('../img/grape.jpg');}
+#mango{background: url('../img/mango.jpg')}
+h3{
+    font: 400 1.5em "Open Sans", sans-serif;
+}
+p{
+    font: .9em "Proxima Nova", sans-serif;
+    line-height: 30px;
+}
+i{
+    font-size: 2em;
+}
+a{
+    font: .9em "Proxima Nova", sans-serif;
+    color: #fff;
+}
+.col33 i{
+    color: #e3e9e9;
+}
+h6{
+    font: .9em "Montserrat" sans-serif;
+    text-transform: uppercase;
+}
+h2{
+    font: 300 2em "Open Sans", sans-serif;
+    text-transform: uppercase;
+}
+span{
+    font-size: 2em;
+}
+.footbg{
+    background: url('../img/footbg.jpg') center/cover;
+    min-height: 100vh;
+    padding: 20vw 0 0 0;
+}
+.txtfoot h2{
+    padding: 0 0 20px 0;
+    font-weight: 500;
+    text-transform: none;
+    font-size: 2em;
+}
+.txtfoot p{
+    font: 1em "Open Sans", sans-serif;
+}
+article h5{
+    text-transform: none;
+    font: 400 .9em  "Open Sans", sans-serif;
+}
+article{
+    padding: 5vh 25px;
+}
+article p{
+    font: 400 .8em "Open Sans", sans-serif;
+    text-transform: none;
+    padding: 20px 0;
+    line-height: 24px;
+    color: #8297a7;
+}
+.icons{
+    padding: 15px 0 0 0;
+}
+.icons i{
+    margin-right: 10px;
+    border-radius: 26px;
+    font-size: 1.5em;
+}
+article .fa-facebook-f{
+    background: #2e3192;
+    padding: 10px 15px;
+}
+article .fa-twitter{
+    background: #00aeef;
+    padding: 10px;}
+article .fa-youtube{
+    background: #ed3123;
+    padding: 10px;
+}
+article .fa-linkedin-in{
+    background: #171a8f;
+    padding: 10px 13px;
+}
+footer {
+    background: #0c1119;
+}
+form {
+    padding: 0 10px 50px 10px;
+    margin-top: 20px;
+}
+form input{
+    padding-left: 10px;
+}
+form input, form button {
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    margin: 5px 0;
+}
+@media only screen and (min-width: 768px) {
+    menu{
+        float: right;
+    }
+    header{
+        text-align: initial;
+    }
+    menu li{
+    display: inline-block;
+    }
+    nav{
+        padding: 0 50px;
+    }
+    .fit_div{
+        left: 13vw;
+        width: initial;
+        text-align: right;
+    }
+    h1{
+        font: 2.25em;
+    }
+    h2{font: 2.1em;}
+    .container{
+        margin: auto;
+        max-width: 1180px;
+    }
+    .txtfoot h2{
+        font-size: 2.8em;
+    }
+    form button{
+        width: 150px;
+        height: 40px; 
+    }
+    form button:hover{
+        color: #a2ca28;
+        background: #fff;
+    }
+    form{
+        text-align: right;
+        padding-right: 50px;
+    }
+    form input {
+        width: 150px;
+        height: 40px;
+    }
+    .row::after{
+        display: table;
+        content: '';
+        clear: both;
+    }
+    .fleft{float: left;} 
+    .col25 {width: 25%;}
+    .fright{float: right;}
+    .col66{width: 66.66%;}
+    .col33{width: 33.33%;}
+}
